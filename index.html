@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>brand title</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <script src="https://kit.fontawesome.com/914d0104bb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <a href="#" class="logo">company</a>
+            <div class="container pullDown">
+                <ul>
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#" id="watch">Watch IPL</a></li>
+                    <li><a href="#" id="book">Book IPL</a></li>
+                    <li><a href="#" id="host">Host A Match</a></li> 
+                    <li><a href="#" id="pfp"><img src="orum.jpg"></a></li>                   
+                </ul>
+            </div>
+        </div>
+
+            
+        <div class="swiper">
+             <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="getachance.jpg"></div>
+            <div class="swiper-slide"><img src="getachance_or.jpg"></div>
+            <div class="swiper-slide"><img src="getachance_gr.jpg"></div>
+            
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="options">
+            <div class="box">
+                <h1>Host a Match</h1>
+                <p>Find players to play cricket</p>
+                <i class="fa-solid fa-cricket-bat-ball" style="color: #B2F042;"></i>
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+
+        
+        <!-----JAVASCRIPT UWUWU----->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            speed:2000,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+        </script>
+    </body>
+</html>
