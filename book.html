@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>ok nice</title>
+    <title>League Link</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,27 +12,30 @@
           -webkit-font-smoothing: antialiased;
         }
     
-        .c-btn {
+        .c-btn, button {
           font-size: 14px;
           text-transform: capitalize;
           font-weight: 600;
           display: inline-block;
           line-height: 36px;
           cursor: pointer;
+          margin-top: 15px;
           text-align: center;
           text-transform: uppercase;
           min-width: 200px;
           height: 36px;
-          margin-top: 10px;
-          margin-bottom: 20px;
-          padding: 0 10px;
           text-align: center;
           letter-spacing: .5px;
           border-radius: 20px;
-          background: #B2F042;
+          border: none;
+          background: #D85230;
           color: #393939;
           transition: background 200ms ease-in-out;
           box-shadow: 0 3.08696px 5.82609px 0 rgba(0, 0, 0, 0.16174), 0 3.65217px 12.91304px 0 rgba(0, 0, 0, 0.12435);
+        }
+        button{
+            margin-top: 50px;
+          margin-left: 250px;
         }
     
         .c-btn--flat {
@@ -53,7 +56,6 @@
         .c-btn--flat, .c-btn--flat:hover, .c-btn--flat:active {
           box-shadow: none;
         }
-    
       </style>
     </head>
 
@@ -111,11 +113,23 @@
                   el.addEventListener('click', function() {
                     picker.open();
                   }, false);
+
+                  function myFunction() {
+                  location.href= "complimentary.html";
+                  }
               
                 </script>   
         <script type="text/javascript" src="main.js"></script>
         </div>
-
+        <div class="player">
+            <p>Number of people</p>
+              <form action="/action_page.php">
+                  <input type="number" id="place" name="place" placeholder="Enter Number"> 
+              </form>
+          </div>
+          <button onclick="myFunction()">
+        PROCEED
+          </button>
     </body>
 </html>
 

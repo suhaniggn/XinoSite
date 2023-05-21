@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 #bookipl{
-    position: absolute;
+
 width: 487px;
 height: 42px;
-left: 104px;
-margin-top: 36px;
+margin-left: 104px;
+margin-top: 150px;
+margin-bottom: 50px;
 
 font-family: 'Outfit';
 font-style: normal;
 font-weight: 800;
 font-size: 40px;
-line-height: 55%
+line-height: 55%;
 
 letter-spacing: -0.408px;
 
@@ -142,11 +143,11 @@ div.pullDown a:hover:before
 
 
 .seats{
-    position: absolute;
+
 width: 270px;
 height: 32px;
-left: 104px;
-top: 182px;
+margin-left: 104px;
+margin-top: 50px;
 
 font-family: 'Outfit';
 font-style: normal;
@@ -161,32 +162,33 @@ color: #FFFFFF;
 }
 
 .seatplan{
-    position: absolute;
 width: 577.18px;
 height: 581px;
-left: 112px;
-top: 234px;
+margin-left: 112px;
+margin-top: 10px;
 
 }
 
 .rect1{
-    position: absolute;
+
 width: 453px;
 height: 44px;
-left: 117px;
-top: 860px;
+margin-left: 117px;
+margin-top:50px;
+padding: 10px;
 
 background: #1C1C1E;
 border-radius: 107px;
+display: flex;
+flex-direction: row;
 
 }
 
 .paise{
-    position: absolute;
+
 width: 25px;
 height: 22px;
-left: 519px;
-top: 871px;
+margin-left: 100px;
 
 font-family: 'Outfit';
 font-style: normal;
@@ -200,11 +202,9 @@ letter-spacing: -0.408px;
 color: #FF453A
 }
 .complimentary{
-    position: absolute;
 width: 305px;
 height: 22px;
-left: 141px;
-top: 871px;
+margin-top: 0px;
 
 font-family: 'Outfit';
 font-style: normal;
@@ -220,24 +220,38 @@ color: #FFFFFF;
 
 .rect2{
     width: 453px;
-height: 44px;
-left: 117px;
-top: 918px;
+    height: 44px;
+    margin-left: 117px;
+    margin-top:20px;
+    padding: 10px;
+    
+    background: #1C1C1E;
+    border-radius: 107px;
+    display: flex;
+    flex-direction: row;
 }
 
 .paise2{
     width: 25px;
-height: 22px;
-left: 519px;
-top: 929px;
-padding-bottom: 162px;
+    height: 22px;
+    margin-left: 80px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+
+color: #FF453A
+
 }
 
 .complimentary2{
     width: 325px;
 height: 22px;
-left: 141px;
-top: 929px;
+
+margin-top: 0px;
 
 }
 .invoice{
